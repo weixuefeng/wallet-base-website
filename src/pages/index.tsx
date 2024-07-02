@@ -29,8 +29,7 @@ function Main() {
       <p className='p-4'>用户故事:</p>
       <p>中心化的游戏程序，迁移到去中心化，需要开发钱包系统，有一定的开发成本。如果不自己开发，在移动端只能使用 deepLink 方式连接钱包，需要在多个 app 之间来回跳转，用户体验极差。如果游戏程序集成一个sdk，就可以实现钱包创建，管理，发送等去中心化功能，会极大提升用户体验。</p>
       <p className='p-4'>讨论:</p>
-      <p>github issue: https://github.com/weixuefeng/wallet-base-website/issues</p>
-      <p>telegram: https://t.me/walletsdk</p>
+      <p><a href='https://t.me/walletsdk'>telegram</a>: https://t.me/walletsdk</p>
     </div>
   )
 }
