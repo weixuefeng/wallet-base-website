@@ -1,0 +1,52 @@
+body {
+}
+
+input {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+@font-face {
+  font-family: 'grizzlyn';
+  src: url('/fonts/GRIZZLYN.TTF');
+}
+
+@font-face {
+  font-family: 'akzidenz-bold';
+  src: url('/fonts/AkzidenzGrotesk-Bold.otf');
+}
+
+@font-face {
+  font-family: 'akzidenz-light';
+  src: url('/fonts/AkzidenzGrotesk-Light.otf');
+}
+
+@font-face {
+  font-family: 'akzidenz-medium';
+  src: url('/fonts/AkzidenzGrotesk-Medium.otf');
+}
+
+@keyframes checkRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
